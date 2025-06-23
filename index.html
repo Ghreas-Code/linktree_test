@@ -14,11 +14,40 @@
       color: white;
       text-align: center;
       padding: 2rem;
-      /* خلفية مخصصة (غير مفعّلة حالياً) */
-      /* background: url('your-image.jpg') no-repeat center center fixed;
-         background-size: cover; */
+      background: linear-gradient(135deg, #0a4bae, #df84ea, #6463c8, #9e74d8);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
     }
-
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    
+    .logo-container {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    }
+    .logo-container img:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+    }
+    .logo-container img:active {
+      transform: scale(0.9);
+      transition: transform 0.1s ease;
+    }
+    .logo-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    .logo-container img {
+      width: 200px;
+      height: auto;
+    }
+    
     h1 {
       font-size: 3rem;
       color: red;
@@ -69,20 +98,28 @@
   </style>
 </head>
 <body>
-
-  <h1>Test Name</h1>
+  
+  <!-- شعار -->
+  <div class="logo-container">
+    <img src="bilder\Logo\tivo.png" alt="Logo" />
+  </div>
+  <h1>Willkommen bei TIVO – Ihr kreatives Studio für Design, Druck & Medien</h1>
   <p>
-    Willkommen! Dies ist eine Testseite, die wie Linktree funktioniert.<br />
-    Du kannst hier alle deine Social-Media-Links an einem Ort präsentieren.
+    Wir gestalten starke Markenidentitäten, drucken mit höchster Qualität, fotografieren mit Leidenschaft und bringen Ihre Inhalte digital zum Leben.<br />
+    Ob Grafikdesign, Videoproduktion oder NFC-Technologie – bei uns finden Sie alles unter einem Dach.<br />
+    Modern. Farbenfroh. Einzigartig.
   </p>
-
+  
   <div class="icons">
+    <a href="#" class="icon-link"><i class="fa-brands fa-threads"></i></a>
+    <a href="#" class="icon-link"><i class="fab fa-google-plus-g"></i></a>
     <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
     <a href="#" class="icon-link"><i class="fab fa-facebook"></i></a>
     <a href="#" class="icon-link"><i class="fab fa-tiktok"></i></a>
     <a href="#" class="icon-link"><i class="fab fa-whatsapp"></i></a>
     <a href="#" class="icon-link"><i class="fas fa-envelope"></i></a>
     <a href="#" class="icon-link"><i class="fas fa-map-marker-alt"></i></a>
+    <a href="#" class="icon-link"><i class="fas fa-file-alt"></i></a>
     <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
     <a href="#" class="icon-link"><i class="fas fa-phone"></i></a>
   </div>
