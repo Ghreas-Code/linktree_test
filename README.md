@@ -8,7 +8,7 @@ Eine einfache, responsive Seite für soziale Links – inspiriert von Linktree �
 Die Seite zeigt klickbare Social-Media-Icons in zwei Reihen, mit Hover-Effekt (Hintergrundfarbe ändert sich beim Überfahren mit der Maus).  
 Der Hintergrund besteht aus einem sanften, vierfarbigen Farbverlauf (Gradient).
 
-![Vorschau](preview.png)
+![Vorschau](bilder/preview.png)
 
 ---
 
