@@ -51,9 +51,7 @@ Der Hintergrund besteht aus einem sanften, vierfarbigen Farbverlauf (Gradient).
 
 
 
-## 📄 Lizenz
-
-MIT License
+## 📄 License
 
 MIT License
 
